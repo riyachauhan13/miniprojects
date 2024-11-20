@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: end;
+            justify-content: center;
+            padding-bottom:200px ;
+            border: 1px solid black;
+        }
+
+        .boxes{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .box{
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+        }
+
+        #box1{
+            background-color: blue;
+        }
+
+        
+        #box2{
+            background-color: red;
+        }
+
+        
+        #box3{
+            background-color: green;
+        }
+
+        
+        #box4{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="boxes">
+            <div class="box" id="box1" onclick="changeColor()"></div>
+            <div class="box" id="box2" onclick="changeColor2()"></div>
+            <div class="box" id="box3" onclick="changeColor3()"></div>
+            <div class="box" id="box4" onclick="changeColor4()"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

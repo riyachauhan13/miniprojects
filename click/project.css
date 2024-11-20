@@ -1,0 +1,39 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: cornflowerblue;
+      }
+
+      .container {
+        width: 300px;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        padding-right: 0.5rem;
+        border-radius: 5px;
+        background-color: #fff;
+      }
+
+      .container input {
+        padding: 0.5rem 0.6rem;
+        width: 100%;
+        border: none;
+        outline: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+
+     i {
+        cursor: pointer;
+      }
+  
+
